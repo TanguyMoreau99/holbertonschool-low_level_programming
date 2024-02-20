@@ -16,7 +16,7 @@ int main(void)
 
 		if (x == 'a' || x == 'q')
 
-			continue;
+		continue;
 
 	putchar(x);
 	putchar(10);
