@@ -18,7 +18,7 @@ int main(void)
 
 			continue;
 
-		putchar(x);
+	putchar(x);
 	putchar(10);
 	return (0);
 }
