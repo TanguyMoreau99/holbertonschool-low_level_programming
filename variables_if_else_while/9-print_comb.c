@@ -16,6 +16,7 @@ int main(void)
 	{
 		if (x == 9)
 			continue;
+	}
 	{
 		putchar(x);
 
@@ -23,7 +24,7 @@ int main(void)
 
 		putchar(' ');
 	}
-	}
+
 	putchar(10);
 
 	return (0);
