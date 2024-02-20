@@ -13,7 +13,7 @@ int main(void)
 	int x;
 
 	for (x = '0'; x <= '9'; x++)
-
+	{
 		if (x == 9)
 			continue;
 	{
@@ -24,6 +24,6 @@ int main(void)
 		putchar(' ');
 	}
 	putchar(10);
-
+	}
 	return (0);
 }
