@@ -13,7 +13,9 @@ int main(void)
 	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
+
 		if (x == 'a' || x == 'q')
+
 			continue;
 
 		putchar(x);
