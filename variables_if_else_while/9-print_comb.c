@@ -16,8 +16,8 @@ int main(void)
 	{
 		if (x == 9)
 		continue;
-	}
-	{
+
+
 		putchar(x);
 
 		putchar(',');
