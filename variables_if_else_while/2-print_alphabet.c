@@ -9,6 +9,10 @@
  */
 
 int main(void)
+
+	int char x;
 {
-putchar("abcdefghijklmnopqrstuvwxyz")
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x)
+
 }
