@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - print the size of various type
  *
  * Return: Always 0
+ *
  */
 int main(void)
 {
