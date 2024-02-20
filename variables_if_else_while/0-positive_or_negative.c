@@ -2,7 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* Program for my first if looi */
+/* Program for my first if loop */
 int main(void)
 {
 	int n;
