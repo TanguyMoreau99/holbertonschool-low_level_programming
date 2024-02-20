@@ -14,9 +14,9 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 
-	if (x == 'a' || x == 'q')
+		if (x == 'a' || x == 'q')
 
-		continue;
+			continue;
 
 	putchar(x);
 
