@@ -22,7 +22,7 @@ int main(void)
 		else
 			if (n % 10 < 5)
 				printf("and is less than 6 and not 0");
-			
+
 			else
 				printf("and is 0");
 	return (0);
