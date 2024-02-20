@@ -16,9 +16,9 @@ int main(void)
 	{
 		putchar(x);
 
-		putchar(54);
+		putchar(',');
 
-		putchar(32);
+		putchar(' ');
 	}
 	putchar(10);
 
