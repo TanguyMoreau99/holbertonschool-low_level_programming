@@ -23,7 +23,8 @@ int main(void)
 
 		putchar(' ');
 	}
-	putchar(10);
 	}
+	putchar(10);
+
 	return (0);
 }
