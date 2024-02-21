@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int x
+	int x;
 
 	for (x = 'a'; x >= 'z'; x++)
 		_putchar(x);
@@ -15,3 +15,4 @@ int main(void)
 	_putchar(10);
 
 	return (0);
+}
