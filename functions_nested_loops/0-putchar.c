@@ -1,8 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - print
@@ -11,10 +7,14 @@
  */
 int main(void)
 {
-	int x
-
-	putchar("_putchar");
-	putchar(10);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
 	return (0);
 
