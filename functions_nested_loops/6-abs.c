@@ -6,9 +6,8 @@
  * @n : x
  * Return: n
  */
-int _abs(int);
+int _abs(int n)
 {
-	int x;
 
 	if (n > 0)
 		return (n);
