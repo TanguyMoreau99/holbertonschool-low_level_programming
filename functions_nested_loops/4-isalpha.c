@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _islower - x
+ * _isalpha - x
  * @c : x
  * Return: 0 or 1
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
