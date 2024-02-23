@@ -3,15 +3,14 @@
 /**
  * _islower - x
  *
- * Return: 1 or 2
+ * Return: 0 or 1
  */
-int _islower(int c);
+int _islower(int c)
 {
-	int c;
 
-	if (c = 'A'; c <= 'Z'; c++)
-		return (1)
+	if (c = ['a' - 'z']
+		return (1);
 
 	else
-		return (0)
+		return (0);
 }
