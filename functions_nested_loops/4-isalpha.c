@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - x
+ * _isalphint print_sign(int n);a - x
  * @c : x
  * Return: 0 or 1
  */
