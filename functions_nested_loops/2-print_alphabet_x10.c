@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet - print the alphabet
+ * print_alphabet_x10 - print the alphabet
  *
  * Return: Void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int x;
 	int t;
