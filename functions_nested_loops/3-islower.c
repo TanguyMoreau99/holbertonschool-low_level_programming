@@ -2,7 +2,7 @@
 
 /**
  * _islower - x
- *
+ * @c : x
  * Return: 0 or 1
  */
 int _islower(int c)
