@@ -20,7 +20,7 @@ void print_line(int n)
 			x++;
 		}
 	_putchar(10);
-		
+
 	}
 	else
 	_putchar(10);
