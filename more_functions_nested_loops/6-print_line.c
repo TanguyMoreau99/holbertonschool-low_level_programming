@@ -14,7 +14,7 @@ void print_line(int n)
 		_putchar(95 * n);
 	if (n <= 0)
 		_putchar(95);
-	if (n = 0)
+	if (n == 0)
 		_putchar(95);
 	_putchar(10);
 
