@@ -18,11 +18,12 @@ void print_line(int n)
 		{
 			_putchar(95);
 			x++;
-	_putchar(10);
 		}
+	_putchar(10);
+		
 	}
 	else
-		_putchar(10);
+	_putchar(10);
 
 
 }
