@@ -12,6 +12,7 @@ void rev_string(char *s)
 {
 	int nombre = 0;
 	int retour;
+	int tempo;
 
 	while (s[nombre] != '\0')
 	{
@@ -19,7 +20,8 @@ void rev_string(char *s)
 	}
 	for (retour = nombre - 1; retour >= 0; retour--)
 	{
-		putchar(s[retour]);
+		putchar
 	}
+
 	putchar(10);
 }
