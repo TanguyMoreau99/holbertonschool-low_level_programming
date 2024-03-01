@@ -23,11 +23,11 @@ char *_strcat(char *dest, char *src)
 
 	while (src[index2] != '\0')
 	{
+		dest[index1] = src[index2];
 		index2++;
 		index1++;
-		dest[index1] = src[index2];
 	}
 
-	dest = '\0';
+	dest[index1] = '\0';
 	return (dest);
 }
