@@ -20,7 +20,8 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[index1][index2]);
 		}
-	}
 
-	_putchar(10);
+
+		_putchar(10);
+	}
 }
