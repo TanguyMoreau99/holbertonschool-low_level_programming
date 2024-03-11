@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	if (sortie == NULL)
 		return (NULL);
 	for (index2 = 0; index2 <= index1; index2++)
-		sortie[index2] = sortie[index1];
+		sortie[index2] = str[index1];
 
 	return (sortie);
 }
