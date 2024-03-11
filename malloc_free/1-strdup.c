@@ -13,8 +13,8 @@ char *_strdup(char *str)
 {
 
 	char *sortie;
-	int index1;
-	int index2;
+	unsigned int index1;
+	unsigned int index2;
 
 	if (str == 0)
 	{
@@ -26,8 +26,8 @@ char *_strdup(char *str)
 
 	if (sortie == NULL)
 		return (NULL);
-	for (index2 = 0; index2 < index1; index2++)
-	sortie[index2] = sortie[index1];
+	for (index2 = 0; index2 <= index1; index2++)
+		sortie[index2] = sortie[index1];
 
 	return (sortie);
 }
